@@ -37,7 +37,7 @@ class DriveSubscriberStub extends Specification {
 
         then:
         drivePublisher.SendingResult.equals("Lexus ok");
-        1 * driveSubscriber1.receiveArticle(_);
+        //1 * driveSubscriber1.receiveArticle(_);
 
 
 
