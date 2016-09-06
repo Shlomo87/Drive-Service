@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Drive Service" />
+        <module name="Spock Spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Drive Service" target="1.8" />
+      <module name="Spock Spring" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
